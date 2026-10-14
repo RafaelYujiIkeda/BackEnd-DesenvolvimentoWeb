@@ -1,1 +1,6 @@
-<p>cadastro works!</p>
+<h1>BEM VINDO AO LOGIN</h1>
+<input type="text" name="userCadastro" [(ngModel)]="nome" placeholder="Digite seu nome">
+<input type="email"  id="emailCadastro" placeholder="Digite seu email">
+<input type="password" id="passwordCadastro" placeholder="Digite sua senha">
+<button (click)="Cadastrar()">Cadastrar</button>
+<h3>{{mensagem}}</h3>
